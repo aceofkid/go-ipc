@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"time"
 
-	"bitbucket.org/avd/go-ipc/sync"
+	"github.com/aceofkid/go-ipc/sync"
 )
 
 var (

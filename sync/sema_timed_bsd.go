@@ -11,7 +11,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"bitbucket.org/avd/go-ipc/internal/common"
+	"github.com/aceofkid/go-ipc/internal/common"
 
 	"github.com/pkg/errors"
 	"golang.org/x/sys/unix"

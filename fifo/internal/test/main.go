@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"time"
 
-	"bitbucket.org/avd/go-ipc/fifo"
-	"bitbucket.org/avd/go-ipc/internal/test"
+	"github.com/aceofkid/go-ipc/fifo"
+	"github.com/aceofkid/go-ipc/internal/test"
 )
 
 var (

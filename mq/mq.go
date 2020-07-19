@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	"bitbucket.org/avd/go-ipc/internal/common"
+	"github.com/aceofkid/go-ipc/internal/common"
 )
 
 const (

@@ -7,8 +7,8 @@ import (
 	"runtime"
 	"unsafe"
 
-	"bitbucket.org/avd/go-ipc/internal/allocator"
-	"bitbucket.org/avd/go-ipc/internal/sys/windows"
+	"github.com/aceofkid/go-ipc/internal/allocator"
+	"github.com/aceofkid/go-ipc/internal/sys/windows"
 
 	"github.com/pkg/errors"
 	"golang.org/x/sys/windows"

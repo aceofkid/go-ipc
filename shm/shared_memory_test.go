@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"bitbucket.org/avd/go-ipc/internal/test"
-	"bitbucket.org/avd/go-ipc/mmf"
+	"github.com/aceofkid/go-ipc/internal/test"
+	"github.com/aceofkid/go-ipc/mmf"
 
 	"github.com/stretchr/testify/assert"
 )
@@ -235,7 +235,7 @@ func TestMemoryObjectCloseOnGc(t *testing.T) {
 		}
 		time.Sleep(time.Millisecond * 20)
 	}
-	// TODO(avd) - close() on darwin
+	// TODO(aceofkid) - close() on darwin
 	assert.Fail(t, "the memory object was not finalized during the gc cycle")
 }
 

@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"os"
 
-	"bitbucket.org/avd/go-ipc/mq"
+	"github.com/aceofkid/go-ipc/mq"
 )
 
 func createMqWithType(name string, perm os.FileMode, typ, opt string) (mq.Messenger, error) {

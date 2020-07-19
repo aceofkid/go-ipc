@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"sync"
 
-	ipc_sync "bitbucket.org/avd/go-ipc/sync"
+	ipc_sync "github.com/aceofkid/go-ipc/sync"
 )
 
 func createLocker(typ, name string, mode int) (locker sync.Locker, err error) {

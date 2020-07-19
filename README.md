@@ -1,7 +1,7 @@
 # go-ipc: A library for inter-process communication written in pure Go.
 This package gives you access to os-native ipc mechanisms on Linux, OSX, FreeBSD, and Windows.
 
-[![CircleCI](https://circleci.com/bb/avd/go-ipc/tree/master.svg?style=svg)](https://circleci.com/bb/avd/go-ipc/tree/master) [![GoDoc](https://godoc.org/bitbucket.org/avd/go-ipc?status.svg)](https://godoc.org/bitbucket.org/avd/go-ipc) [![Go Report Card](https://goreportcard.com/badge/bitbucket.org/avd/go-ipc)](https://goreportcard.com/report/bitbucket.org/avd/go-ipc) 
+[![CircleCI](https://circleci.com/bb/aceofkid/go-ipc/tree/master.svg?style=svg)](https://circleci.com/bb/aceofkid/go-ipc/tree/master) [![GoDoc](https://godoc.org/github.com/aceofkid/go-ipc?status.svg)](https://godoc.org/github.com/aceofkid/go-ipc) [![Go Report Card](https://goreportcard.com/badge/github.com/aceofkid/go-ipc)](https://goreportcard.com/report/github.com/aceofkid/go-ipc) 
 
 
 * Pure Go implementation, no cgo is required.
@@ -21,7 +21,7 @@ This package gives you access to os-native ipc mechanisms on Linux, OSX, FreeBSD
 1. Install Go 1.4 or higher.
 2. Run
 ```
-go get -u bitbucket.org/avd/go-ipc
+go get -u github.com/aceofkid/go-ipc
 ```
 
 ## System requirements
@@ -29,7 +29,7 @@ go get -u bitbucket.org/avd/go-ipc
 2. Go 1.4 or higher.
 
 ## Documentation
-Documentation can be found at [`godoc`](https://godoc.org/bitbucket.org/avd/go-ipc).
+Documentation can be found at [`godoc`](https://godoc.org/github.com/aceofkid/go-ipc).
 
 ## Notes
 
@@ -42,8 +42,8 @@ it is even not guaranteed, that it builds correctly on all platforms. The librar
 Any contributions are welcome.
 Feel free to:
 
-  - create [`issues`](https://bitbucket.org/avd/go-ipc/issues/new)
-  - open [`pull requests`](https://bitbucket.org/avd/go-ipc/pull-requests/new)
+  - create [`issues`](https://github.com/aceofkid/go-ipc/issues/new)
+  - open [`pull requests`](https://github.com/aceofkid/go-ipc/pull-requests/new)
 
 Before opening a PR, be sure, that:
 

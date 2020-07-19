@@ -7,10 +7,10 @@ import (
 	"runtime"
 	"time"
 
-	"bitbucket.org/avd/go-ipc/internal/allocator"
-	"bitbucket.org/avd/go-ipc/internal/helper"
-	"bitbucket.org/avd/go-ipc/mmf"
-	"bitbucket.org/avd/go-ipc/shm"
+	"github.com/aceofkid/go-ipc/internal/allocator"
+	"github.com/aceofkid/go-ipc/internal/helper"
+	"github.com/aceofkid/go-ipc/mmf"
+	"github.com/aceofkid/go-ipc/shm"
 
 	"github.com/pkg/errors"
 )

@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
-	"bitbucket.org/avd/go-ipc/internal/test"
-	"bitbucket.org/avd/go-ipc/mmf"
+	"github.com/aceofkid/go-ipc/internal/test"
+	"github.com/aceofkid/go-ipc/mmf"
 
 	"github.com/stretchr/testify/assert"
 )
